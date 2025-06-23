@@ -1,0 +1,56 @@
+body {
+    font-family: "Libre Baskerville", serif;
+    background-color: rgb(99, 90, 90);
+}
+
+.titlebar {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+   
+    border-style:solid;
+    border-color: black;
+    padding: 10px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px;
+    flex-grow: 1;
+    
+     
+     
+
+}
+
+.container div {
+    width: 200px;
+    color: white;
+    padding: 2px;
+    margin: 20px;
+    image-resolution: 200;
+    border-style:ridge;
+    border-color: black;
+    padding: 10px;
+    border-width: 2px;
+    text-align: center;
+    margin: 10px;
+    background-color:rgb(84, 79, 79);
+    cursor: pointer;
+    
+    flex-basis: 45%;
+    
+    
+   
+
+    
+}
